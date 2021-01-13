@@ -1,0 +1,12 @@
+name: nyu-curp-2021
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - scikit-learn
+    - jupyterlab
+    - seaborn
